@@ -1,0 +1,19 @@
+﻿<Window x:Class="StackPanel_v2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StackPanel_v2"
+        mc:Ignorable="d"
+        Title="StackPanel v2" Height="150" Width="460">
+    <Grid>
+        <StackPanel>
+            <Label x:Name="lblPytanie" Content="Jaką porę roku lubisz najbardziej?"/>
+            <RadioButton x:Name="radioBtn1" Content="Wiosna"/>
+            <RadioButton x:Name="radioBtn2" Content="Lato"/>
+            <RadioButton x:Name="radioBtn3" Content="Jesień"/>
+            <RadioButton x:Name="radioBtn4" Content="Zima"/>
+        </StackPanel>
+        
+    </Grid>
+</Window>
